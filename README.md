@@ -10,15 +10,16 @@
 
 复制以下命令
 
-'''bash
+```bash
 git clone https://github.com/fructosecloud/dotfiles.git
-'''
+```
 
-'''bash
+  
+```bash
 cd dotfiles && cp vimrc $HOME/.vimrc
-'''
+```
 或者
 
-'''bash
+```bash
 cd dotfiles && ln -s vimrc $HOME/.vimrc #创建软链接，以便于后续备份
-'''
+```
